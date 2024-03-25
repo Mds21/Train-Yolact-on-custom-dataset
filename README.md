@@ -43,7 +43,7 @@ YOLACT++ is an advanced real-time instance segmentation model designed to accura
 # Run just the raw model on the first 1k images of the validation set
 python3 labelme2coco.py {train dataset folder path} {Train output folder path} --label=labels.txt
 ```
-same thing should be done for test folder , make sure you have you have added your labels in labels.txt
+same thing should be done for test folder also , make sure you have added your labels in labels.txt
 
 ## config file changes
 

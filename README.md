@@ -87,3 +87,5 @@ python3 ./train.py --config=my_resnet50_config #change config as per mentioned i
 ```Shell
 python3  eval.py --trained_model={path to your trained model}  --config=my_resnet50_config  --score_threshold=0.50 --images={testing image path}:{tested output images path}
 ```
+
+Reference : https://github.com/dbolya/yolact
